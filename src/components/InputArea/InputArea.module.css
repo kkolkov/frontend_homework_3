@@ -1,0 +1,71 @@
+.inputArea {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 20px 24px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.attachButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  margin-bottom: 4px;
+}
+
+.attachButton:hover {
+  background-color: #f1f3f5;
+}
+
+.textarea {
+  flex: 1;
+  min-height: 40px;
+  max-height: 200px;
+  padding: 10px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.textarea:focus {
+  border-color: #007bff;
+}
+
+.sendButton, .stopButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 4px;
+}
+
+.sendButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.sendButton:hover {
+  background-color: #0056b3;
+}
+
+.stopButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.stopButton:hover {
+  background-color: #c82333;
+}
